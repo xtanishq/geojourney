@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/native_ad_tag_bg_startColor"
+        android:endColor="@color/native_ad_tag_bg_endColor"
+        android:angle="45" />
+    <corners android:bottomRightRadius="5dp"/>
+    <corners android:topLeftRadius="10dp"/>
+</shape>
+
+
+<!--<vector xmlns:android="http://schemas.android.com/apk/res/android"
+android:width="48dp"
+android:height="48dp"
+android:viewportWidth="48"
+android:viewportHeight="48">
+
+&lt;!&ndash; Outer Circle &ndash;&gt;
+<path
+    android:pathData="M24,0
+        a24,24 0 0,1 0,48
+        a24,24 0 0,1 0,-48z"
+    android:fillColor="#608fe4" />
+
+&lt;!&ndash; Top-Left Corner &ndash;&gt;
+<path
+    android:pathData="M24,0
+        a24,24 0 0,1 24,24
+        l0,-24z"
+    android:fillColor="#608fe4" />
+
+&lt;!&ndash; Bottom-Right Corner &ndash;&gt;
+<path
+    android:pathData="M24,48
+        a24,24 0 0,1 -24,-24
+        l0,24z"
+    android:fillColor="#608fe4" />
+</vector>-->
+
+<!--<TextView
+android:id="@+id/native_ad_attribution_small"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginRight="5dp"
+android:background="@drawable/rounded_shape"
+android:gravity="center"
+android:padding="2dp"
+android:text="Ad"
+android:textColor="#FFFFFF"
+android:textSize="10sp" />-->
